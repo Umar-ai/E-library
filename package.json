@@ -9,19 +9,29 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-email/components": "0.2.0",
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.7.0",
+    "mongoose": "^8.16.2",
+    "multer": "^2.0.1",
+    "next": "15.3.5",
+    "next-auth": "^4.24.11",
+    "next-connect": "^1.0.0",
+    "prettier": "^3.6.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.5"
+    "resend": "^4.6.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/multer": "^2.0.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.3.5",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
