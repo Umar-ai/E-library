@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📚 E-Library — A Modern Digital Library Platform
 
-## Getting Started
+Welcome to **E-Library**, an open-source digital library web application where users can explore, read, and download books across all genres. Whether you're into fiction, non-fiction, sci-fi, fantasy, academic, or self-help — our library offers a modern and immersive experience for book lovers.
 
-First, run the development server:
+![Banner](https://your-image-url.com/banner.png) <!-- Replace with an actual image URL -->
+
+---
+
+## 🌐 Demo
+
+🧪 **Live Demo**: [https://your-website-url.com](https://your-website-url.com)  
+🛠️ **Admin Demo**: [https://your-website-url.com/admin](https://your-website-url.com/admin)
+
+---
+
+## ✨ Features
+
+- 📖 **Read Books Online** — PDF and EPUB reader embedded
+- 🔍 **Advanced Search & Filters** — Search by title, author, genre, or tags
+- 🌒 **Dark Mode Design** — Hyper-modern and user-friendly UI
+- 📂 **Multi-Format Support** — Upload and serve both PDF and ePub files
+- 👥 **User Authentication** — Login and signup with JWT or session support
+- 🧑‍💼 **Admin Dashboard** — Upload, update, and manage book collections
+- 📑 **Book Previews** — Display book info like title, author, genre, and cover
+- 💾 **Download Option** — Users can download files to read offline
+
+---
+
+
+
+
+---
+
+## 🧩 Tech Stack
+
+**Frontend:**
+- Next.js / React
+- TailwindCSS (for modern, responsive UI)
+- Shadcn for (Modren UI).
+
+**Backend:**
+- Node.js with Express / Next API Routes
+- MongoDB with Mongoose (for storing books and user data)
+- Multer (for file uploads)
+- Cloudinary or AWS S3 (for file storage, optional)
+
+**Others:**
+- JWT / Session Auth
+- PDF.js and EPUB.js (for rendering books)
+- Zod / Yup (form validation)
+- Vercel / Netlify (for deployment)
+
+---
+
+## 📦 Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/your-username/e-library.git
+cd e-library
+npm install
