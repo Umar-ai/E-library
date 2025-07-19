@@ -58,6 +58,6 @@ export const bookSchema: Schema<Ibook> = new Schema({
   ],
 });
 
-export const books =
+export const bookModel =
   (mongoose.models.Book as mongoose.Model<Ibook>) ||
   mongoose.model<Ibook>("Book", bookSchema);

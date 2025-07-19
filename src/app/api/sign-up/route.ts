@@ -3,7 +3,7 @@ import { userModel } from "@/model/user.model";
 import { NextRequest, NextResponse } from "next/server";
 import { cloudinaryUpload } from "@/helper/Cloudinary";
 import { sendVerificationEmail } from "@/helper/sendVerificationEmali";
-import { writeFile, unlink } from "fs/promises";
+import { writeFile} from "fs/promises";
 import { File } from "buffer";
 import bcrypt from "bcryptjs";
 
