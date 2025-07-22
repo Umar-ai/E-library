@@ -1,4 +1,4 @@
 import { GoogleGenAI } from "@google/genai";
 
 
-const ai = new GoogleGenAI({});
+export const ai = new GoogleGenAI({});
